@@ -23,6 +23,7 @@ void Train::addCage(bool light) {
         first->prev = item;
     }
 }
+
 int Train::getLength() {
     int lenght = 0;
     int curStep = 0;
